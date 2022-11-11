@@ -1,0 +1,50 @@
+/*mobile*/
+@media (max-width: 576px){
+
+    .container-ubic{
+        grid-template-columns: 2fr;
+        grid-template-rows: repeat(3,1fr);
+        grid-template-areas: 
+   
+        "box-6" "box-6"
+        "box-6" "box-6"
+        "box-7" "box-7"
+        ;
+    }
+    .box-6{
+        background-color: burlywood;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .box-7{
+        display: flex;
+    }
+}
+
+
+.box-7{
+   
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(#46D1AF,#8DE1C6, #0b6ab8);
+    display: grid;
+    place-content: center;
+    border-radius: 50% 50% 50%  50%;
+    border: 3px solid #555;
+      
+    position: relative;
+}
+
+.box-7 img{
+    height: 150px;
+    border-radius: 30% ;
+
+}
+
+//     /* width: 100px;
+//     height: 100px;
+//     transform: skewY(8deg); */
+//     /* transform: rotate(20deg); */
+    
+

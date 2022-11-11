@@ -1,0 +1,20 @@
+@import "./utilities/variables";
+@import "./base/typo";
+@import "./utilities/mixins";
+@import "./base/reset";
+// @import "./layout/body";
+
+@import "./layout/header";
+@import "./layout/conten-index";
+@import "./layout/clases";
+@import "./layout/galeria";
+
+@import "./components/boostrap";
+@import "./layout/gridcontacto";
+@import "./layout/logoUbi";
+@import "./layout/ubic";
+@import "./layout/footer";
+@import "./layout/media-mobile";
+@import "./layout/media-tablet";
+@import "./layout/media-web";
+

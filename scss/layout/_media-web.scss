@@ -1,0 +1,74 @@
+/* responsive web UBICACION.HTML*/
+
+.ubi{
+    height: 200px;
+    border-radius: 30%;
+    
+}
+
+
+.box-6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-ubic{
+    display: grid;
+    height: 90vh;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-template-areas: 
+    "box-6 box-6 box-6 box-7"
+    "box-6 box-6 box-6 box-7"
+    "box-6 box-6 box-6 box-7"
+    ;
+
+    
+}
+.box-6 {
+    background-color: rgb(217, 224, 226);
+    grid-area: box-6;
+    justify-items: center;
+    align-content: center;
+   
+
+}
+
+
+
+.box-7 {
+    background-color: rgb(45, 151, 201);
+    grid-area: box-7;
+}
+
+
+/* animacion */
+
+    /* esta  caja seria el div de mi difuminacion */
+    .box-7:hover{
+        animation-name: fiufiu;
+        animation-duration: 15s;
+    }
+    
+    @keyframes fiufiu {
+        0%{
+            /* background-color: red; */
+            background: radial-gradient(#46D1AF,#8DE1C6, #0b6ab8);
+            left: 0px;
+            top: 0px;
+        }
+        25%{
+            /* background-color: yellow; */
+            background: radial-gradient(#46D1AF,#8DE1C6, #d128e0);
+            left: 0px;
+            top: 200px;
+        }
+    
+        50%{
+            /* background-color: blue; */
+            background: radial-gradient(#46D1AF,#8DE1C6, #f1e865);
+            top: 200px;
+            top: 0px;
+        } 
+        
+    }

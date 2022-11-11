@@ -1,0 +1,42 @@
+/* GRID Contanos.html*/
+/* headr */
+.headr{
+    background-color: rgb(137, 149, 153);
+    grid-area: headr;
+    
+}
+/* mainn */
+.mainn{
+    background-color: rgb(217, 218, 216);
+    grid-area: pepito;
+}
+/* aaside */
+.aaside{
+    background-color: rgb(231, 143, 143);
+    grid-area: aside;
+}
+
+.aaside h3{
+    font-family: 'Permanent Marker', cursive;
+}
+
+/* foooter */
+.foooter{
+    background-color: rgb(100, 96, 97);
+    grid-area: footer;
+}
+
+.containr{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-template-areas: 
+    "headr headr headr headr"
+    "pepito  pepito aside aside"
+    "footer footer footer footer"
+    ;
+    column-gap: 20px;
+    background-color: beige;
+}

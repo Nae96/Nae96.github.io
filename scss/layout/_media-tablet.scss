@@ -1,0 +1,22 @@
+// /*tablet **/
+@media (max-width:768px){
+
+    .container-ubic{
+        
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat( 3, 1fr) ;
+        grid-template-areas: 
+        "box-6 box-6 box-7"
+        "box-6 box-6 box-7"
+        "box-6 box-6 box-7"
+       
+        ;
+    }
+    .box-6{
+        background-color: yellow;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
